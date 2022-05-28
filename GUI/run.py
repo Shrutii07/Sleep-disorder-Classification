@@ -40,7 +40,7 @@ def cap():
             str3 = 'CAP phase detected : B '
         else:
             str3 = 'CAP phase detected : A '
-        model1 = keras.models.load_model("model_skip_HU (1).h5")
+        model1 = keras.models.load_model("model_v4.h5")
         pred1 = model1.predict(x_bal)
         print(str1)
         
@@ -63,7 +63,7 @@ def cap():
                 str3 = 'CAP phase detected : B '
             else:
                 str3 = 'CAP phase detected : A '
-            model1 = keras.models.load_model("model_skip_HU (1).h5")
+            model1 = keras.models.load_model("model_v4.h5")
             pred1 = model1.predict(x_bal)
         else:
             str1 = 'Health Report : Negative'
@@ -73,7 +73,7 @@ def cap():
                 str3 = 'CAP phase detected : B '
             else:
                 str3 = 'CAP phase detected : A '
-            model1 = keras.models.load_model("model_skip_HU (1).h5")
+            model1 = keras.models.load_model("model_v4.h5")
             pred1 = model1.predict(x_bal)
         return render_template('form.html' , str1 = str1, str2 = str2, str3 = str3)
     return render_template('form.html' , str1 = str1 , str2 = str2, str3 = str3)
