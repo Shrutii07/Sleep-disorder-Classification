@@ -1,6 +1,6 @@
 # Sleep-disorder-Classification
 
-A hierarchical approach for the diagnosis of sleep disorders and cyclic alternating pattern (CAP) sleep phases using 1-dimensional convolutional recurrent neural network (CRNN). The hierarcy has three stages, first stage classifies input signal into healthy and unhealthy. The next stage identifies sleep disorders from unhealthy input signals namely nsomnia, nfle, narcolepsy, rbd and plm. The third stage identifies CAP phase of input signal. Proposed models uses single-channel standardized electroencephalogram (EEG) recordings provided by the CAP sleep database. No manual feature extraction or pre/post processing is required making the approach completely autonomous. The healthy-unhealthy classification and disease classification have been studied using dataset of both phases (A & B), using dataset of only phase A, using dataset of only phase B seperately.
+A hierarchical approach for the diagnosis of sleep disorders and cyclic alternating pattern (CAP) sleep phases using 1-dimensional convolutional recurrent neural network (CRNN). The hierarcy has three stages, first stage classifies input signal into healthy and unhealthy. The next stage identifies sleep disorders from unhealthy input signals namely insomnia, nfle, narcolepsy, rbd and plm. The third stage identifies CAP phase of input signal. Proposed models uses single-channel standardized electroencephalogram (EEG) recordings provided by the CAP sleep database. No manual feature extraction or pre/post processing is required making the approach completely autonomous. The healthy-unhealthy classification and disease classification have been studied using dataset of both phases (A & B), using dataset of only phase A, using dataset of only phase B seperately.
 
 ## Instructions
 ### Dataset preparation
@@ -19,5 +19,5 @@ A hierarchical approach for the diagnosis of sleep disorders and cyclic alternat
 * Open the generated link in any browser.
 * Give the test samples provided in the folder [test](https://github.com/Shrutii07/Sleep-disorder-Classification/tree/main/GUI/test) or any C4A1 channel signal of 2s duration of 512Hz in csv format to see the result.
 
-The sample output of GUI scree can be seen below
+The sample output of GUI screen can be seen below
 ![](/GUI/gui_ss.jpeg)
