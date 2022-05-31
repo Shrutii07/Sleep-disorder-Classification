@@ -18,3 +18,4 @@ A hierarchical approach for the diagnosis of sleep disorders and cyclic alternat
 * Run the [run.py](https://github.com/Shrutii07/Sleep-disorder-Classification/blob/main/GUI/run.py) file using python interpreter.
 * Open the generated link in any browser.
 * Give the test samples provided in the folder [test](https://github.com/Shrutii07/Sleep-disorder-Classification/tree/main/GUI/test) or any C4A1 channel signal of 2s duration of 512Hz in csv format to see the result.
+![](/GUI/gui_ss.jpeg)
