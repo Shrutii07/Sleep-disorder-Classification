@@ -1,1 +1,9 @@
 # Sleep-disorder-Classification
+
+A hierarchical approach for the diagnosis of sleep disorders and cyclic alternating pattern (CAP) sleep phases using 1-dimensional convolutional recurrent neural network (CRNN). The hierarcy has three stages, first stage classifies input signal into healthy and unhealthy. The next stage identifies sleep disorders from unhealthy input signals namely nsomnia, nfle, narcolepsy, rbd and plm. The third stage identifies CAP phase of input signal. Proposed models uses single-channel standardized electroencephalogram (EEG) recordings provided by the CAP sleep database. No manual feature extraction or pre/post processing is required making the approach completely autonomous. The healthy-unhealthy classification and disease classification have been studied using dataset of both phases (A & B), using dataset of only phase A, using dataset of only phase B seperately.
+
+## Instructions
+### Dataset preparation
+* Follow instructions of our repository [CAP-Phase-Detection](https://github.com/Shrutii07/CAP-Phase-Detection) to create balanced CAP dataset for healthy as well as disordered subjects. You can download this data directly from [here](https://drive.google.com/drive/folders/1-DdLogc2Z7ck7KUrD6pmLUJdJ0QiPrqq?usp=sharing).
+* Run the colab file [Dataset_preparation_disease_classification](https://github.com/Shrutii07/Sleep-disorder-Classification/blob/main/Dataset_preparation_disease_classification.ipynb). Give proper path of previously downloaded dataset and for folder in which dataset is to be strored.
+* You can directly download dataset for healthy-unhealthy classification from [here](https://drive.google.com/drive/folders/1ai3kodudyjBxSH4zHm5dwUSmWSDUL2eB?usp=sharing) and dataset of disease classification from [here](https://drive.google.com/drive/folders/1tQHZx3aY3X9Us2UIJBVAjlLs15oIcgEF?usp=sharing)
