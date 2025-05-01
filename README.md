@@ -21,3 +21,16 @@ A hierarchical approach for the diagnosis of sleep disorders and cyclic alternat
 
 The sample output of GUI screen can be seen below
 ![](/GUI/gui_ss.jpeg)
+
+This repo contains the implementation of our paper, [A Hierarchical Approach for the Diagnosis of Sleep Disorders Using Convolutional Recurrent Neural Network](https://doi.org/10.1109/ACCESS.2023.3330901). If you find this code useful in your research, please consider citing:
+
+    @ARTICLE{10310136,
+      author={Wadichar, Aditya and Murarka, Shruti and Shah, Dhruvi and Bhurane, Ankit and Sharma, Manish and Mir, Hasan S. and Acharya, U. Rajendra},
+      journal={IEEE Access}, 
+      title={A Hierarchical Approach for the Diagnosis of Sleep Disorders Using Convolutional Recurrent Neural Network}, 
+      year={2023},
+      volume={11},
+      number={},
+      pages={125244-125255},
+      keywords={Computer architecture;Logic gates;Microprocessors;Recurrent neural networks;Kernel;Electroencephalography;Convolutional neural networks;Long short term memory;Sleep apnea;Medical conditions;Convolutional neural network (CNN);cyclic alternating patterns (CAP);deep learning;electroencephalogram (EEG);long short-term memory (LSTM);sleep disorders classification},
+      doi={10.1109/ACCESS.2023.3330901}}
